@@ -35,7 +35,7 @@ export default function Navbar() {
             Hermes Guidance
           </Link>
         </div>
-        <div className='hidden lg:flex gap-14 mr-40 font-semibold'>
+        <div className='hidden lg:flex gap-14 mr-20 xl:mr-40 font-semibold'>
           {navigationLinks.map((item) => {
             return (
               <Link href={item.link} key={item.id}>
