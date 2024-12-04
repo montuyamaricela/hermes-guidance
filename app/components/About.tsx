@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <Container>
+    <Container id='about'>
       <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold text-center lg:w-2/4 mx-auto'>
         Hermes Guidance: Your Path, Your Way, Every Day.
       </h2>

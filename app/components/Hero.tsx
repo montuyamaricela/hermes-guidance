@@ -33,7 +33,11 @@ export default function Hero() {
         className='w-full rounded-3xl bg-no-repeat bg-cover hidden lg:flex items-center justify-center'
         style={{ backgroundImage: `url('${heroImage.src}')` }}
       >
-        <Image src={phoneMockUp} alt='Phone mockup' className='w-44 lg:w-72' />
+        <Image
+          src={phoneMockUp}
+          alt='Phone mockup'
+          className='w-44 lg:w-80 shadow-2xl'
+        />
       </div>
     </div>
   );

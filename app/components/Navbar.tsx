@@ -4,6 +4,8 @@ import React, { useEffect, useState } from "react";
 import SheetWrapper from "./ui/SheetWrapper";
 import { SheetClose } from "./ui/sheet";
 import { navigationLinks } from "../data";
+import logo from "@/public/Icons/hermes-logo.png";
+import Image from "next/image";
 
 export default function Navbar() {
   const [backgroundColor, setBackgroundColor] = useState("transparent");
@@ -29,13 +31,14 @@ export default function Navbar() {
       className='fixed right-0 left-0 px-5 transition-all ease-in-out duration-500 z-50'
       style={{ backgroundColor: backgroundColor }}
     >
-      <div className='py-5 container mx-auto flex justify-between'>
+      <div className='py-5 container mx-auto flex justify-between items-center'>
         <div>
-          <Link href='/' className='font-bold'>
+          <Link href='/' className='font-bold flex gap-3 items-center'>
+            <Image src={logo} alt='Hermes Logo' />
             Hermes Guidance
           </Link>
         </div>
-        <div className='hidden lg:flex gap-14 mr-20 xl:mr-40 font-semibold'>
+        <div className='hidden lg:flex gap-14 mr-20 xl:mr-40 font-semibold items-center'>
           {navigationLinks.map((item) => {
             return (
               <Link href={item.link} key={item.id}>
