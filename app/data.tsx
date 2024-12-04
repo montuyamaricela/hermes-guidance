@@ -43,13 +43,13 @@ export const AppFeatures = [
       "Easily locate routes, stops, and fares for more efficient commuting.",
     icon: RouteIcon.src,
   },
-  {
-    id: 4,
-    title: "Lorem Ipsum",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur interdum",
-    icon: MapIcon.src,
-  },
+  // {
+  //   id: 4,
+  //   title: "Lorem Ipsum",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur interdum",
+  //   icon: MapIcon.src,
+  // },
 ];
 
 export const TeamProfile = [

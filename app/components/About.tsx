@@ -16,7 +16,7 @@ export default function About() {
         mind during emergencies, Hermes Guidance has you covered.
       </p>
 
-      <div className='grid grid-cols-2 lg:grid-cols-4 gap-5 mt-10'>
+      <div className='grid grid-cols-2 lg:grid-cols-3 gap-5 mt-10 lg:w-3/4 mx-auto'>
         {AppFeatures.map((item) => {
           return (
             <div
