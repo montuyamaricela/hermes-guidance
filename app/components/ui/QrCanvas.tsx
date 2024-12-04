@@ -7,7 +7,7 @@ export default function QrCanvas() {
   const { Image } = useQRCode();
 
   return (
-    <div className='rounded-2xl overflow-hidden absolute top-14 right-10 left-10 md:right-auto md:top-24 md:left-[4.5rem]'>
+    <div className='rounded-2xl overflow-hidden absolute top-14 right-10 left-10 md:right-auto md:top-24 md:left-[72px]'>
       <Image
         text={process.env.NEXT_PUBLIC_APP_LINK ?? ""}
         options={{
