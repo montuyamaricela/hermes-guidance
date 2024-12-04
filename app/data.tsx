@@ -34,20 +34,20 @@ export const AppFeatures = [
     description: "Quickly alert for help when it matters most.",
     icon: EmergencyIcon.src,
   },
-  {
-    id: 3,
-    title: "Lorem Ipsum",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur interdum",
-    icon: MapIcon.src,
-  },
-  {
-    id: 4,
-    title: "Lorem Ipsum",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur interdum",
-    icon: MapIcon.src,
-  },
+  // {
+  //   id: 3,
+  //   title: "Jeepney Route Assistance",
+  //   description:
+  //     "Easily locate jeepney routes, stops, and fares for more efficient commuting.",
+  //   icon: MapIcon.src,
+  // },
+  // {
+  //   id: 4,
+  //   title: "Lorem Ipsum",
+  //   description:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur interdum",
+  //   icon: MapIcon.src,
+  // },
 ];
 
 export const TeamProfile = [
