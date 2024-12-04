@@ -22,10 +22,15 @@ export default function Hero() {
             covered.
           </p>
           <Button className='hover:scale-105 transition-all ease-in-out duration-500 uppercase rounded-full border p-5 border-white/50 bg-transparent'>
-            Download The App{" "}
-            <span className='bg-white rounded-full h-6 w-6 text-black flex items-center justify-center'>
-              <ArrowUpRight className='m-auto' />
-            </span>
+            <a
+              href={process.env.NEXT_PUBLIC_APP_LINK}
+              className='flex items-center gap-2'
+            >
+              Download The App{" "}
+              <span className='bg-white rounded-full h-6 w-6 text-black flex items-center justify-center'>
+                <ArrowUpRight className='m-auto' />
+              </span>
+            </a>
           </Button>
         </div>
       </div>

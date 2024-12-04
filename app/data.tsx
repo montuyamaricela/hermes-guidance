@@ -8,13 +8,17 @@ import profileJm from "@/public/Team/jm.png";
 export const navigationLinks = [
   { id: 1, title: "About", link: "#about" },
   { id: 2, title: "Contact", link: "#contact" },
-  { id: 3, title: "Download", link: "#downloadApp" },
+  { id: 3, title: "Download", link: process.env.NEXT_PUBLIC_APP_LINK ?? "" },
 ];
 
 export const footerLinks = [
   { id: 1, title: "About", link: "#about" },
   { id: 2, title: "Contact", link: "#contact" },
-  { id: 3, title: "Download Mobile App", link: "#downloadApp" },
+  {
+    id: 3,
+    title: "Download Mobile App",
+    link: process.env.NEXT_PUBLIC_APP_LINK ?? "",
+  },
 ];
 
 export const AppFeatures = [

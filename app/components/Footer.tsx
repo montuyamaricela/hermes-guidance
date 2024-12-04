@@ -18,9 +18,9 @@ export default function Footer() {
           <div className='flex items-center gap-10 justify-center'>
             {footerLinks.map((item) => {
               return (
-                <Link href={item.link} key={item.id} className='font-semibold'>
+                <a href={item.link} key={item.id} className='font-semibold'>
                   {item.title}
-                </Link>
+                </a>
               );
             })}
           </div>

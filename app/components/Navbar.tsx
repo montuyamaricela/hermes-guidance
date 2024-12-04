@@ -66,7 +66,7 @@ export default function Navbar() {
                       className='text-base font-semibold uppercase text-center'
                     >
                       <SheetClose asChild>
-                        <Link href={item.link}>{item.title}</Link>
+                        <a href={item.link}>{item.title}</a>
                       </SheetClose>
                     </li>
                   );
