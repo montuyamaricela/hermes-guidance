@@ -15,6 +15,7 @@ export default function About() {
         through a busy city, exploring new destinations, or ensuring peace of
         mind during emergencies, Hermes Guidance has you covered.
       </p>
+
       <div className='grid grid-cols-2 lg:grid-cols-4 gap-5 mt-10'>
         {AppFeatures.map((item) => {
           return (
