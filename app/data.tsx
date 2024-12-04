@@ -61,13 +61,13 @@ export const TeamProfile = [
   {
     id: 3,
     name: "De Jesus, Juan Miguel",
-    position: "Lorem Ipsum",
+    position: "Researcher",
     img: profileJm,
   },
   {
     id: 4,
     name: "Bayona, Victor Daniel",
-    position: "Lorem Ipsum",
+    position: "Researcher",
     img: profileVic,
   },
 ];
