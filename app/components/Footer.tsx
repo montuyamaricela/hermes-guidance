@@ -10,8 +10,8 @@ export default function Footer() {
       <div className='container mx-auto'>
         <div className='grid gap-5 lg:gap-0 lg:grid-cols-2 lg:w-3/4 mx-auto'>
           <div className='flex items-center justify-center lg:justify-start'>
-            <Link href='/' className='font-bold flex gap-3 items-center'>
-              <Image src={logo} alt='Hermes Logo' />
+            <Link href='/' className='font-bold flex gap-2 items-center'>
+              <Image src={logo} alt='Hermes Logo' className='w-14' />
               Hermes Guidance
             </Link>
           </div>

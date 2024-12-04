@@ -33,8 +33,8 @@ export default function Navbar() {
     >
       <div className='py-5 container mx-auto flex justify-between items-center'>
         <div>
-          <Link href='/' className='font-bold flex gap-3 items-center'>
-            <Image src={logo} alt='Hermes Logo' />
+          <Link href='/' className='font-bold flex gap-2 items-center'>
+            <Image src={logo} alt='Hermes Logo' className='w-14' />
             Hermes Guidance
           </Link>
         </div>
